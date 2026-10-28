@@ -1,0 +1,7 @@
+# Keep uploads and the Python bundle small: no local envs, builds or tests.
+**/__pycache__
+**/.pytest_cache
+backend/.venv
+backend/tests
+frontend/node_modules
+frontend/dist
